@@ -9,11 +9,8 @@ let z=0;
 function setup() {  
 	createCanvas(w,h);
 	for(let i=0;i<200;i++){
-		if(i<=100){
-		img[i] = loadImage("data/picture1/Movie"+q+".jpg");
-		}else if(i>100){
-		img[i] = loadImage("data/picture2/Movie"+q+".jpg");
-		}		q++;
+		img[i] = loadImage("data/picture1/Movie"+q+".jpg");	
+		q++;
 	}
 }
 
